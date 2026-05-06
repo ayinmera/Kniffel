@@ -11,5 +11,19 @@ while running:
         elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
             running = False
     #Erstellung farbe Fenster
-    window.fill((74, 154, 69)) #hier wird die Farbe des Fensters festgelegt
-   
+    window.fill((74, 154, 69)) #Farbe des Fensters festgelegt
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    pygame.display.update()
+pygame.quit()
