@@ -17,3 +17,7 @@ class Scorecard:
             "kniffel": None,
             "chance": None
         }
+
+
+def draw(window, position=(50, 50), size=(600, 600), color=(200, 200, 200)):
+        pygame.draw.rect(window, color, (*position, *size)) #Hintergrund der Scorecard
